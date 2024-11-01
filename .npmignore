@@ -1,0 +1,34 @@
+# Development
+node_modules/
+.git/
+.github/
+.gitignore
+.env
+*.log
+
+# Tests
+test/
+coverage/
+*.test.js
+*.spec.js
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Docs
+docs/
+examples/
+CONTRIBUTING.md
+CHANGELOG.md
+VISION.md
+
+# Misc
+.DS_Store
+thumbs.db
+*.tgz
+.editorconfig
+.eslintrc*
+.prettierrc*
+tsconfig.json

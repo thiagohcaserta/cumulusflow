@@ -1,0 +1,24 @@
+{
+  "name": "create-cumulusflow",
+  "version": "0.1.0-beta.1",
+  "description": "Create CumulusFlow apps with one command",
+  "repository": "movestax/cumulusflow",
+  "license": "MIT",
+  "bin": {
+    "create-cumulusflow": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.12",
+    "ora": "^7.0.1"
+  }
+}
